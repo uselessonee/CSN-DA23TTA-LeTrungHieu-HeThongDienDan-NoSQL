@@ -1,0 +1,26 @@
+http://localhost:5000/api/comments
+###
+http://localhost:5000/api/users
+
+###
+GET http://localhost:5000/api/users
+
+###
+POST http://localhost:5000/api/users
+
+###
+DELETE http://localhost:5000/api/users/
+
+###
+http://localhost:5000/api/communities
+
+###
+http://localhost:5000/api/posts
+
+###
+http://localhost:5000/api/posts?sort=new
+
+###
+http://localhost:5000/api/comments/6933e8cac93bec4ebef8eea4
+
+###

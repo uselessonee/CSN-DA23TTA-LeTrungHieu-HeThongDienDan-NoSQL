@@ -1,0 +1,101 @@
+content,upvotes,downvotes,createdAt
+"Bài viết rất hữu ích, cảm ơn tác giả!",12,0,2024-12-01T08:30:00Z
+"Mình đã thử và chạy rất thành công.",8,1,2024-12-01T09:15:00Z
+"Có cách nào tối ưu hơn đoạn code này không bạn?",5,0,2024-12-01T10:00:00Z
+"Cộng đồng mình dạo này nhiều bài chất lượng quá.",20,2,2024-12-02T11:20:00Z
+"Mình nghĩ hướng tiếp cận này chưa thực sự an toàn.",3,5,2024-12-02T12:45:00Z
+"Đúng thứ mình đang tìm kiếm bấy lâu nay.",15,0,2024-12-03T14:10:00Z
+"Cho mình xin tài liệu chi tiết hơn về phần này với.",7,0,2024-12-03T15:30:00Z
+"Dùng thư viện nào để xử lý việc này tốt nhất nhỉ?",4,1,2024-12-04T16:00:00Z
+"Tuyệt vời, hy vọng có thêm nhiều bài viết như thế này.",11,0,2024-12-04T17:20:00Z
+"Mình vẫn bị lỗi ở dòng 24, ai giúp mình với!",2,0,2024-12-05T08:10:00Z
+"Cái này có hỗ trợ trên môi trường Windows không?",6,1,2024-12-05T09:40:00Z
+"Thật sự ngưỡng mộ kiến thức của bạn.",18,0,2024-12-06T10:50:00Z
+"Giải thích rất dễ hiểu, người mới như mình cũng làm được.",22,1,2024-12-06T11:15:00Z
+"Đã bookmark lại để dành lúc cần.",13,0,2024-12-07T13:05:00Z
+"Vấn đề này mình thấy khá gây tranh cãi.",2,4,2024-12-07T14:45:00Z
+"Hóng phần tiếp theo của series này.",9,0,2024-12-08T15:30:00Z
+"AI giờ phát triển nhanh quá, không biết sau này thế nào.",16,2,2024-12-08T16:50:00Z
+"Lỗi này xử lý sao mọi người ơi? [Error: BSONError]",1,0,2024-12-09T08:20:00Z
+"Thử restart lại server xem sao bạn.",5,0,2024-12-09T09:10:00Z
+"Đã làm theo và thành công, cảm ơn nhé!",10,0,2024-12-09T10:30:00Z
+"Bạn có thể giải thích thêm về cơ chế Indexing không?",4,0,2024-12-10T11:45:00Z
+"Đề tài này rất sát với thực tế đi làm.",14,1,2024-12-10T14:20:00Z
+"Mình thấy dùng SQL cho trường hợp này sẽ tốt hơn.",6,3,2024-12-11T15:10:00Z
+"Data Science ở Việt Nam hiện tại đang rất hot.",12,0,2024-12-11T16:40:00Z
+"Mọi người có ai dùng thử MongoDB Atlas chưa?",8,0,2024-12-12T17:55:00Z
+"Đang dùng và thấy rất ổn định, dễ quản lý.",7,0,2024-12-12T18:20:00Z
+"Cái này có tốn phí không bạn ơi?",2,0,2024-12-13T09:30:00Z
+"Có gói miễn phí cho người mới bắt đầu đó.",5,0,2024-12-13T10:15:00Z
+"Nên học Python hay Node.js trước mọi người nhỉ?",9,2,2024-12-14T11:40:00Z
+"Tùy vào định hướng của bạn là gì thôi.",4,0,2024-12-14T12:50:00Z
+"Mình thích UI của cộng đồng này ghê.",21,0,2024-12-15T14:10:00Z
+"Hôm nay có sự kiện gì mới không anh em?",3,0,2024-12-15T15:40:00Z
+"Nghe nói sắp có bản update lớn.",6,0,2024-12-16T16:25:00Z
+"Bản thân mình thích cách trình bày của tác giả.",13,1,2024-12-16T17:10:00Z
+"Một bài chia sẻ tâm huyết quá.",17,0,2024-12-17T08:50:00Z
+"Góp ý là bạn nên dùng Markdown cho code dễ nhìn hơn.",5,2,2024-12-17T09:40:00Z
+"Đã sửa, cảm ơn bạn đã nhắc nhé!",4,0,2024-12-17T10:20:00Z
+"Freelancer dạo này khó kiếm job quá.",11,4,2024-12-18T11:55:00Z
+"Cố gắng trau dồi portfolio là sẽ có việc thôi.",8,0,2024-12-18T13:10:00Z
+"Công cụ này giúp mình tiết kiệm được bao nhiêu thời gian.",19,0,2024-12-19T14:40:00Z
+"Cho mình hỏi cấu hình này chạy trên máy yếu được không?",2,1,2024-12-19T15:50:00Z
+"Được nhé, nó khá là nhẹ.",5,0,2024-12-19T16:30:00Z
+"Nhìn thiết kế này thấy chuyên nghiệp thật.",12,0,2024-12-20T17:15:00Z
+"Màu sắc phối chưa được hài hòa lắm.",3,6,2024-12-20T18:40:00Z
+"Blockchain không chỉ là tiền ảo đâu nhé.",10,2,2024-12-21T09:20:00Z
+"Rất mong chờ các bài viết tiếp theo về Web3.",15,0,2024-12-21T10:45:00Z
+"Có ai biết group nào chuyên về React không?",4,0,2024-12-22T11:50:00Z
+"Search trên thanh công cụ là thấy nha.",2,0,2024-12-22T12:30:00Z
+"Vừa mới gia nhập cộng đồng, chào mọi người!",25,0,2024-12-23T14:10:00Z
+"Chào mừng bạn đến với mái nhà chung.",10,0,2024-12-23T15:20:00Z
+"Dùng Mongoose sướng thật, định nghĩa schema rất rõ ràng.",14,0,2024-12-24T16:40:00Z
+"Bạn có thể share link GitHub dự án này không?",6,0,2024-12-24T17:50:00Z
+"Đã update link ở cuối bài rồi đó bạn.",3,0,2024-12-24T18:15:00Z
+"Chúc mọi người một ngày làm việc hiệu quả!",18,0,2024-12-25T08:30:00Z
+"Cảm ơn, bạn cũng vậy nhé!",11,0,2024-12-25T09:10:00Z
+"Lỗi Cast to ObjectId là sao vậy ạ?",1,0,2024-12-26T10:25:00Z
+"Là do bạn truyền object vào trường ID đó.",7,0,2024-12-26T11:40:00Z
+"Kiến thức bổ ích, cảm ơn anh đã chia sẻ.",13,0,2024-12-27T13:20:00Z
+"Dự án này làm mất bao lâu vậy bạn?",5,0,2024-12-27T14:50:00Z
+"Tầm 2 tháng nếu tập trung cao độ.",8,0,2024-12-27T15:30:00Z
+"Có hướng dẫn cài đặt từ A-Z không?",4,0,2024-12-28T16:45:00Z
+"Mình sẽ ra mắt video hướng dẫn sớm nhất.",12,0,2024-12-28T17:20:00Z
+"Đúng là cao nhân ẩn dật.",9,0,2024-12-29T18:10:00Z
+"Mọi người đánh giá sao về tương lai của IT Việt Nam?",15,3,2024-12-29T19:40:00Z
+"Vẫn đang rất rộng mở nếu chịu khó cập nhật.",10,1,2024-12-29T20:20:00Z
+"Nên dùng Tailwind hay CSS thuần nhỉ?",6,2,2024-12-30T08:15:00Z
+"Tailwind cho nhanh và đồng bộ bạn ơi.",11,1,2024-12-30T09:30:00Z
+"Mình quen dùng CSS thuần hơn.",4,3,2024-12-30T10:45:00Z
+"Bài này xứng đáng được 100 upvote!",28,0,2024-12-31T11:55:00Z
+"Cảm ơn sự ủng hộ của bạn!",15,0,2024-12-31T13:20:00Z
+"Cho mình hỏi về lương dev hiện tại.",8,5,2025-01-01T14:10:00Z
+"Hỏi vậy khó trả lời lắm, tùy trình độ thôi.",6,2,2025-01-01T15:30:00Z
+"Làm sao để cân bằng giữa công việc và gia đình?",12,0,2025-01-02T16:40:00Z
+"Quản lý thời gian tốt là chìa khóa.",7,0,2025-01-02T17:25:00Z
+"Nhìn code là biết đẹp trai rồi.",20,1,2025-01-03T18:50:00Z
+"Haha, cảm ơn lời khen của bạn nhé.",14,0,2025-01-03T19:30:00Z
+"Dùng Docker cho dự án này có cần thiết không?",5,0,2025-01-04T08:20:00Z
+"Rất cần để đồng bộ môi trường nhé.",11,0,2025-01-04T09:45:00Z
+"Mình mới học, thấy Nodejs khó quá.",3,2,2025-01-05T10:10:00Z
+"Kiên trì lên, bước đầu bao giờ cũng khó.",9,0,2025-01-05T11:35:00Z
+"Bạn viết thêm về bảo mật API đi.",16,0,2025-01-06T12:50:00Z
+"OK, sẽ có trong bài viết tuần tới.",12,0,2025-01-06T14:20:00Z
+"Cái này có dùng được cho Mobile App không?",4,0,2025-01-07T15:40:00Z
+"Backend này dùng chung cho cả Web và Mobile được.",10,0,2025-01-07T16:30:00Z
+"Cần tối ưu lại database một chút.",7,4,2025-01-08T17:15:00Z
+"Cảm ơn góp ý chuyên môn của bạn.",5,0,2025-01-08T18:40:00Z
+"Năm mới chúc cả nhà Nexus mạnh khỏe!",30,0,2025-01-09T09:20:00Z
+"Chúc mừng năm mới!",20,0,2025-01-09T10:15:00Z
+"Sao mình cài đặt mãi không được nhỉ?",2,2,2025-01-10T11:40:00Z
+"Chụp màn hình lỗi gửi lên group Facebook để mọi người hỗ trợ.",6,0,2025-01-10T12:50:00Z
+"Database Atlas dùng free đến bao nhiêu GB vậy?",4,0,2025-01-11T14:10:00Z
+"Thường là 512MB đến 5GB tùy vùng nha.",5,0,2025-01-11T15:25:00Z
+"Đã dùng thử và thấy rất hài lòng.",13,0,2025-01-12T16:50:00Z
+"Không gì bằng được chia sẻ kiến thức.",19,0,2025-01-12T17:40:00Z
+"Có ai ở Hà Nội không, offline cafe đi!",11,2,2025-01-13T18:10:00Z
+"Đợi khi nào cộng đồng mình đông hơn tí nữa.",6,0,2025-01-13T19:30:00Z
+"Tài liệu này quý như vàng.",22,0,2025-01-14T08:50:00Z
+"Cảm ơn admin đã phê duyệt bài viết.",14,0,2025-01-14T09:40:00Z
+"Mong hệ thống ngày càng phát triển hơn nữa.",26,0,2025-01-15T10:10:00Z
+"Đồng ý, tinh thần chia sẻ là trên hết.",18,0,2025-01-15T11:25:00Z
