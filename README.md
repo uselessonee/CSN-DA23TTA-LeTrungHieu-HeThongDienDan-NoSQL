@@ -1,7 +1,7 @@
 # CSN-DA23TTA - Lê Trung Hiếu - Hệ Thống Diễn Đàn (NoSQL)
 
----
-
+## Đề tài: Thiết kế và cài đặt cơ sở dữ liệu NoSQL cho hệ thống diễn đàn trao đổi kiến thức chuyên ngành
+![Badge](https://img.shields.io/badge/Status-Completed-success)  ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) ![Node.Js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E)
 ## 1. THÔNG TIN TÁC GIẢ
 - **Giảng viên hướng dẫn:** Phan Thị Phương Nam
 
