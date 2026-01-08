@@ -206,10 +206,9 @@ Content-Type: application/json
 Tôi đã thêm sẵn một file `test/api-tests.http` với một số request mẫu để bạn có thể dùng **REST Client** (VS Code) hoặc chuyển sang **Postman**; tôi cũng đã thêm các npm scripts hữu ích:
 
 - `npm run init-db` → khởi tạo schema & validation (`node src/config/initSchema.js`)
+
 - `npm run seed` → nạp dữ liệu mẫu lớn (`node data/gen_fake_data.js`)
 - `npm run seed-small` → nạp dữ liệu mẫu nhỏ (`node data/new_csvgen.js`)
 - `npm start` → chạy server
 - `npm run dev` → chạy server với `nodemon` (live reload)
-
-Bạn muốn tôi bổ sung thêm các request mẫu (ví dụ: chuỗi đăng nhập, tạo bài có kèm token) hoặc thêm hướng dẫn export/import collection Postman không? 🎯
 
