@@ -1,0 +1,35 @@
+### Base URL
+@baseUrl = http://localhost:5000
+
+# Lấy root
+GET {{baseUrl}}/
+
+### GET posts
+GET {{baseUrl}}/api/posts
+
+### Tạo user (POST)
+POST {{baseUrl}}/api/users
+Content-Type: application/json
+
+{
+  "username": "restclient",
+  "email": "rest@example.com",
+  "password": "pass123"
+}
+
+### Tạo post (POST)
+POST {{baseUrl}}/api/posts
+Content-Type: application/json
+
+{
+  "title": "Bài viết thử nghiệm từ REST Client",
+  "content": "Nội dung demo",
+  "author": "<USER_ID>",
+  "community": "<COMMUNITY_ID>"
+}
+
+### Lấy users
+GET {{baseUrl}}/api/users
+
+### Lấy communities
+GET {{baseUrl}}/api/communities
