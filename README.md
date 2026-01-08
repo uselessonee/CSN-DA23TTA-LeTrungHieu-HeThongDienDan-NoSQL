@@ -203,7 +203,8 @@ Content-Type: application/json
 
 ---
 
-Tôi đã thêm sẵn một file `test/api-tests.http` với một số request mẫu để bạn có thể dùng **REST Client** (VS Code) hoặc chuyển sang **Postman**; tôi cũng đã thêm các npm scripts hữu ích:
+File `test/api-tests.http` có một số request mẫu để bạn có thể dùng **REST Client** (VS Code) hoặc chuyển sang **Postman** 
+## Các npm scripts hữu ích:
 
 - `npm run init-db` → khởi tạo schema & validation (`node src/config/initSchema.js`)
 
