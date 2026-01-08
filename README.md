@@ -1,85 +1,113 @@
 # CSN-DA23TTA - Lê Trung Hiếu - Hệ Thống Diễn Đàn (NoSQL)
-## Sinh viên thực hiện: Lê Trung Hiếu
-  Đây là dự án xây dựng hệ thống Backend cho Diễn đàn (Forum) sử dụng cơ sở dữ liệu NoSQL (MongoDB). Dự án tập trung vào việc xử lý các logic phức tạp như phân quyền cộng đồng, hệ thống bình chọn (voting) và phân cấp bình luận.
 
-## Hướng dẫn cài đặt và thiết lập (Setup Guide)
+---
 
-Làm theo các bước dưới đây để triển khai dự án trên môi trường cục bộ (Local Machine).
+## 1. THÔNG TIN TÁC GIẢ ✍️
+- **Giảng viên hướng dẫn:** Phan Thị Phương Nam
+- **Sinh viên thực hiện:** Lê Trung Hiếu
+- **Mã số sinh viên:** 110123011
+- **Mã lớp:** DA23TTA
+- **Liên hệ:** (thêm email hoặc thông tin liên hệ nếu cần)
 
-- **Bước 1: Cài đặt Node.js**
+---
 
-Truy cập trang chủ Node.js.
+## 2. GIỚI THIỆU ĐỒ ÁN & CHỨC NĂNG CHÍNH 💡
+**Mô tả ngắn:**
+Dự án xây dựng Backend cho một hệ thống diễn đàn (Forum) sử dụng MongoDB (NoSQL) với mục tiêu mô phỏng các tính năng cơ bản: quản lý cộng đồng, bài viết, bình luận, và hệ thống bình chọn.
 
-Tải về và cài đặt phiên bản LTS (khuyên dùng để đảm bảo tính ổn định).
+**Các chức năng chính:**
+- Quản lý người dùng: đăng ký, cập nhật thông tin, phân quyền cơ bản.
+- Hệ thống cộng đồng (Community): tạo cộng đồng, quản lý thành viên, phân quyền Admin/Moderator.
+- Bài viết (Posts): tạo, sửa, xóa, phân loại (Top, New, Old).
+- Bình luận (Comments): hỗ trợ bình luận lồng nhau (nested comments) theo bài viết.
+- Bình chọn (Votes): hỗ trợ upvote/downvote với cập nhật nguyên tử.
+- Thống kê (Statistics): thu thập số liệu cơ bản như số bài, số bình luận, lượt vote.
+- Hỗ trợ nạp dữ liệu thử nghiệm từ file CSV và script sinh dữ liệu giả.
 
-Sau khi cài đặt, kiểm tra bằng cách mở Terminal/Command Prompt và gõ:
+---
 
-node -v
-npm -v
+## 3. CÔNG NGHỆ SỬ DỤNG 🔧
+- Node.js (CommonJS)
+- Express.js
+- MongoDB với Mongoose
+- dotenv (quản lý biến môi trường)
+- csv-parser (xử lý CSV)
+- @faker-js/faker (tạo dữ liệu giả)
 
+**Cấu trúc thư mục chính:**
+- `src/config` — cấu hình DB, khởi tạo schema
+- `src/controllers` — xử lý logic cho các route
+- `src/models` — định nghĩa các schema Mongoose
+- `src/routes` — định nghĩa API endpoints
+- `data/` — chứa file CSV và script sinh dữ liệu mẫu (trước đây là `Admin/`)
+- `test/` — chứa file kiểm thử
 
-- **Bước 2: Tải mã nguồn**
+---
 
-Tải file ZIP của dự án về máy và giải nén.
+## 5. HƯỚNG DẪN CÀI ĐẶT (Installation Guide) ⚙️
+### Yêu cầu
+- Node.js (LTS khuyến nghị)
+- MongoDB (Atlas hoặc self‑hosted)
 
-Mở thư mục dự án bằng trình soạn thảo mã nguồn (khuyên dùng VS Code).
+### Các bước cài đặt
+1. Clone repository:
+```bash
+git clone <repo-url>
+cd <project-folder>
+```
 
-- **Bước 3: Cài đặt các thư viện (Dependencies)**
-
-Dự án sử dụng file package.json và package-lock.json để quản lý các thư viện cần thiết. Để cài đặt tất cả các thư viện này, hãy mở Terminal tại thư mục gốc của dự án và chạy lệnh:
-
+2. Cài đặt dependencies:
+```bash
 npm install
+```
 
-
-Lệnh này sẽ tự động đọc danh sách các gói tin trong package.json và tải về thư mục node_modules.
-
-- **Bước 4: Cấu hình biến môi trường**
-
-Tạo một file có tên .env tại thư mục gốc (nếu chưa có) và thêm các thông tin cấu hình sau:
-
+3. Cấu hình biến môi trường:
+- Copy file mẫu:
+```bash
+copy .env.example .env
+```
+- Mở `.env` và cấu hình kết nối MongoDB, ví dụ:
+```
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.example.mongodb.net/<dbname>?retryWrites=true&w=majority
 PORT=5000
-MONGO_URI=your_mongodb_connection_string
+```
+> Lưu ý: Hệ thống hiện chấp nhận `MONGODB_URI` (hoặc `MONGO_URI`), nên bạn có thể dùng tên biến phù hợp với môi trường của mình.
 
+4. Thêm npm scripts (nếu muốn):
+- Bạn có thể thêm vào `package.json`:
+```json
+"scripts": {
+  "start": "node src/server.js",
+  "dev": "nodemon src/server.js"
+}
+```
 
-(Thay thế your_mongodb_connection_string bằng đường dẫn kết nối tới MongoDB của bạn).
-
-- **Bước 5: Chạy ứng dụng**
-
-Sau khi cài đặt hoàn tất, bạn có thể khởi động Server bằng một trong hai lệnh sau:
-
-Chế độ thông thường:
-
+5. Chạy ứng dụng:
+- Chế độ thông thường:
+```bash
 npm start
-
-
-Chế độ phát triển (Tự động tải lại khi sửa code):
-
+```
+- Chế độ phát triển (nếu dùng nodemon):
+```bash
 npm run dev
+```
+Mặc định server lắng nghe trên `http://localhost:5000`.
 
+6. Kiểm tra các endpoint chính:
+- `GET /` → trả về `API is running...`
+- `POST|GET /api/users`
+- `POST|GET /api/communities`
+- `POST|GET /api/posts`
+- `POST|GET /api/comments`
+- `POST|GET /api/votes`
 
-Hệ thống sẽ chạy tại địa chỉ: http://localhost:5000
+### Nạp dữ liệu thử nghiệm
+- Thư mục `data/` chứa các file CSV và script (ví dụ `gen_fake_data.js`) để sinh và nạp dữ liệu mẫu.
 
-Cấu trúc thư mục chính
+---
 
-/config: Cấu hình kết nối cơ sở dữ liệu (MongoDB).
+## Bảo mật & Lưu ý 🔐
+- **Không** commit file `.env` chứa secret vào kho mã nguồn.
+- Sử dụng `.env.example` để chia sẻ cấu trúc biến môi trường.
 
-/controllers: Xử lý logic nghiệp vụ cho từng thực thể (User, Post, Community...).
-
-/models: Định nghĩa các Schema NoSQL (Mongoose).
-
-/routes: Định nghĩa các Endpoint API và điều phối yêu cầu.
-
-server.js: Tệp cấu hình trung tâm và điểm khởi đầu của ứng dụng.
-
-## Các tính năng chính
-
-User Management: Đăng ký, cập nhật thông tin và quản lý tài khoản.
-
-Community System: Tạo cộng đồng, phân quyền Admin/Moderator.
-
-Post & Interaction: Đăng bài viết, phân loại (Top, New, Old).
-
-Advanced Voting: Hệ thống Upvote/Downvote xử lý cập nhật nguyên tử (Atomic Update).
-
-Nested Comments: Hệ thống bình luận theo bài viết và quản lý số lượng bình luận.
-
+---
